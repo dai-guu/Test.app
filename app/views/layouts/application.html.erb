@@ -2,13 +2,45 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <title>初めてのHTML</title>
+    <title>HTMLの復習</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+  <header>
+    <!--<nav class="navbar navbar-expand navbar-light">-->
+                 <div class="container header-group">
+                   <a href="#mv">
+                     <img class="logo" src="/assets/img/logo.png" alt="ロゴ">
+                   </a>
+                   <div class="menu-box">
+			              	<span class="list-bar"></span>
+			              	<span class="list-bar"></span>
+				              <span class="list-bar"></span>
+		               </div>
+		                <nav>
+                     <ul class="nav">
+                        <li class="nav-item">
+                          <a helf="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                           <a helf="#feature">Feature</a>
+                        </li>
+                        <li class="nav-item">
+                          <a helf="#profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                          <a helf="contact">Contact</a>
+                        </li>
+                     </ul>
+                    </nav>
+                </div>
+
+    <!--</nav>-->
+  </header>
+
 
   <body>
     <%= yield %>

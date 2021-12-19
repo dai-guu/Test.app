@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .box1{
  width: 300px;
  height: 300px;
@@ -17,4 +23,16 @@
   width: 100%;
   height: 650px;
   background-image:image-url("img/mv.png");
+}
+
+.main-visual-name{
+ font-size: 64px;
+ color: #FAFAFA;
+ padding-bottom: 10px;
+ padding-top: 200px;
+}
+
+.main-visual-text{
+  font-size: 20px;
+  color: #FAFAFA;
 }
