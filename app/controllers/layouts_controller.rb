@@ -1,8 +1,7 @@
 class LayoutsController < ApplicationController
-  
-  def top
-  end
-  
+
+
+
   def index
   end
 
