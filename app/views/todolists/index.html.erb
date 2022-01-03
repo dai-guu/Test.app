@@ -7,3 +7,7 @@
 <p>画像</p>
 <%= attachment_image_tag @list,:image,:fill, 100,100,format:'jpeg' %>
 <% end %>
+
+<div>
+  <%=link_to "グループを作成する",new_group_path %> | <%=link_to "グループ一覧",groups_path %>
+</div>

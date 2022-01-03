@@ -1,8 +1,11 @@
 Rails.application.routes.draw do
 
+  devise_for :users
   resources :todolists
   resources :layouts
-  # root to:'layouts#top'
+  root to:'layouts#top'
+
+  resources :groups
   # get 'top' => 'homes#top'
   # get 'todolists/new'
   # post 'todolists' => 'todolists#create'

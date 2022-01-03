@@ -24,35 +24,41 @@
 }
 
 header{
-  width: 100%; /* 横幅90% */
-  height: 70px;
+
   background-color: #EC715F;
 }
 
 .logo{
-  height: 70px;
+  height: 100%;
+  width: 100%;
 }
 
-
-.header-group{
- display: flex;
- justify-content: space-between;
- font-size: 0;
-}
-
-.container{
-  width: 1024px;
-  margin: 0 auto;
-}
-
-
-
-.nav-item{
- font-size: 16px;
- color: #FAFAFA;
- list-style: none;
- padding: 0 30px;
- line-height: 70px;
- width: 120px;
+.navbar-brand{
+  height: 60px;
+  // background: url("logo.png") no-repeat left center;
+  background-size: contain;
 
 }
+
+// .header-group{
+// display: flex;
+// justify-content: space-between;
+// font-size: 0;
+// }
+
+// .container{
+//   width: 1024px;
+//   margin: 0 auto;
+// }
+
+
+
+// .nav-item{
+// font-size: 16px;
+// color: #FAFAFA;
+// list-style: none;
+// padding: 0 30px;
+// line-height: 70px;
+// width: 120px;
+
+// }
