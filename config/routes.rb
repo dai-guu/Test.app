@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   root to:'layouts#top'
 
   resources :groups
+  resources :users
   # get 'top' => 'homes#top'
   # get 'todolists/new'
   # post 'todolists' => 'todolists#create'
