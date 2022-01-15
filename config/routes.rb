@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   resources :layouts
   root to:'layouts#top'
 
-  resources :groups
+  resources :groups do
+    get "join" =>"groups#join"
+  end
   resources :users
   # get 'top' => 'homes#top'
   # get 'todolists/new'
